@@ -1,0 +1,19 @@
+{
+  "name": "student-app",
+  "version": "1.0.0",
+  "description": "Improving my web-dev skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiaa292/Student-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiaa292/Student-app/issues"
+  },
+  "homepage": "https://github.com/claudiaa292/Student-app#readme"
+}
