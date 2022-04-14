@@ -10,12 +10,34 @@ body {
   height: 100vh; /*100% din viewport height */
 }
 
-.main {
-    
+.div-header{
+  width: 50%;
+  height: 100px;
+
 }
+
+.loggo{
+width: 400px;
+}
+
+.main{
+  width: 50%;
+  
+}
+
 
 .footer {
   background-color: #888;
   color: #fff;
   padding: 10px;
+}
+
+.buton{
+text-align: center;
+cursor:pointer ;
+border:1px solid #888;
+border-radius: 30px;
+background-color: #fff;
+
+
 }
