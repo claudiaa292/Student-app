@@ -1,6 +1,6 @@
 html,
 body {
-  margin: 0;
+  margin: 1;
 }
 
 body {
@@ -12,39 +12,39 @@ body {
 
 .div-header {
   height: 100px;
+  flex: 1;
 }
 
 .div-header,
 .nav-links {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: top ;
   text-decoration: none;
 }
 
 .active {
   text-align: center;
-  color:black;
+  color: black;
   text-decoration: none;
   cursor: pointer;
-  
-  
 }
 
 .nav-links a.active {
   color: black;
-  padding: 5px 10px;
+  padding: 1px 1px;
   border: 1px solid transparent;
   transition: all 0.4s;
-  
 }
 
-.nav-links, a.active:hover{
+.nav-links,
+a.active:hover {
   border-color: rgb(0, 0, 0);
   border-radius: 23px;
   border: 1px solid #888;
   border-radius: 30px;
   background-color: grey;
   color: white;
+  
 }
 
 .loggo {
@@ -52,32 +52,39 @@ body {
 }
 
 
+.flex-container {
+  display: flex;
+}
+
+.image-home {
+  flex: 1;
+  border: 2px solid transparent;
+  width: 592px;
+  height: 411px;
+  
+}
+
+.short-descrition{
+  border-left: 3px;
+}
+
+#work-button {
+  margin-right: 20px;
+  background-color: rgb(204, 148, 204);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+#work-button:hover {
+  background-color: rgb(187, 125, 156);
+  color: rgb(52, 51, 51);
+  font-weight: bold;
+}
 
 .footer {
   background-color: #888;
   color: #fff;
   padding: 10px;
-}
-
-
-
-#image-home{
-width: 592px;
-height: 411px;
-}
-
-.work-button{
-  margin: 1px solid black ;
-  background-color: rgb(204, 148, 204);
-  border: 1px solid transparent;
-  border-radius: 20px;
-  color:black;
-  text-decoration: none;
-  transition: all 0.4s;
-
-}
-.work-button:hover{
-  background-color: rgb(178, 148, 172);
-  color: white;
-  
 }
