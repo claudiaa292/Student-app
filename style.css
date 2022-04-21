@@ -134,9 +134,6 @@ a:hover {
   justify-content: center;
   background-color: #efefef;
   align-content: center;
-  
-  
-
 }
 .flex1 {
   border: 2px solid black;
@@ -146,9 +143,9 @@ a:hover {
   padding: 15px;
   transition: all 0.4s;
 }
-.flex1:hover{
+.flex1:hover {
   background-color: rgb(117, 108, 108);
-  color:white;
+  color: white;
   transition: all 0.9s;
 }
 
@@ -168,9 +165,14 @@ a:hover {
   padding: 15px;
 }
 
-.icon{
-size: 10px;
-align-items: center;
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+  align-items: center;
+  padding: -3px;
+  margin-left: 70px;
+  margin-right: 70px
 }
 
 .footer {
@@ -178,3 +180,7 @@ align-items: center;
   color: #fff;
   padding: 10px;
 }
+.links-footer{
+    display: inline-block;
+    text-decoration: none;
+  }
