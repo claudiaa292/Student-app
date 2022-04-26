@@ -50,7 +50,7 @@ body {
 }
 
 .bg-gray {
-  background-color: rgb(197, 192, 192);
+  background-color: rgb(232 231 228);;
 }
 
 .div-header,
@@ -114,7 +114,7 @@ a:hover {
 
 #work-button {
   margin-right: 20px;
-  background-color: rgb(204, 148, 204);
+  background-color: rgb(195 177 170);
   border: 1px solid transparent;
   border-radius: 20px;
   color: black;
@@ -135,9 +135,10 @@ a:hover {
   background-color: #efefef;
   align-content: center;
 }
+
 .flex1 {
   border: 2px solid black;
-  border-color: rgb(0, 0, 0);
+  border-color: transparent;
   margin: 15px;
   cursor: pointer;
   padding: 15px;
@@ -151,7 +152,7 @@ a:hover {
 
 .flex2 {
   border: 2px solid black;
-  border-color: rgb(0, 0, 0);
+  border-color: transparent;
   margin: 15px;
   cursor: pointer;
   padding: 15px;
@@ -159,28 +160,183 @@ a:hover {
 
 .flex3 {
   border: 2px solid black;
-  border-color: rgb(0, 0, 0);
+  border-color: transparent;
   margin: 15px;
   cursor: pointer;
   padding: 15px;
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   fill: currentColor;
   align-items: center;
   padding: -3px;
   margin-left: 70px;
-  margin-right: 70px
+  margin-right: 70px;
+}
+
+.portofolio{
+text-align: center;
+display: block;
+font-size: 1.30em;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+  color: #444444;
+  background: #FFFFFF;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  color: #444444;
+  background: #FFFFFF;
+ 
+}
+
+.presenting-portofolio {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-around;
+ 
+  
+  
+
+}
+.presenting-portofolio-photos1 {
+  background-image: url("web-design-team.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
+}
+.presenting-portofolio-photos2 {
+  background-image: url("coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
+}
+
+.presenting-portofolio-photos3 {
+  background-image: url("businessman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
+}
+
+.presenting-portofolio-photos4 {
+  background-image: url("businessman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
+}
+
+.presenting-portofolio-photos5 {
+  background-image: url("de-schimbat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
+}
+
+.presenting-portofolio-photos6 {
+  background-image: url("businessman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
 }
 
 .footer {
-  background-color: #888;
   color: #fff;
   padding: 10px;
 }
-.links-footer{
-    display: inline-block;
-    text-decoration: none;
-  }
+
+.links-footer {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.links-footer a {
+  margin: 0 1rem;
+  text-decoration: none;
+  padding: 0.2rem 0.8rem;
+  border: transparent 2px solid;
+  border-radius: 20px;
+  color: black;
+}
+
+.activare {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links-footer a.activare {
+  border-color: black;
+  border-radius: 30px;
+}
+
+.icons-footer {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+
+.loggo-footer {
+ 
+  border-radius: 20px;
+  padding: 9px 9px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  width: 18;
+  height: 18;
+  background-color: #80808029;
+  margin: 14px
+}
+
+.services {
+  text-align: center;
+display: block;
+font-size: 1.30em;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+  color: #444444;
+  background: #FFFFFF;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  color: #444444;
+  background: #FFFFFF;
+ 
+}
+
+.copyright {
+  text-align: center;
+  color: #4a4646;
+  opacity: 1.1;
+}
