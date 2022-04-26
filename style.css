@@ -50,7 +50,7 @@ body {
 }
 
 .bg-gray {
-  background-color: rgb(232 231 228);;
+  background-color: rgb(232 231 228);
 }
 
 .div-header,
@@ -176,21 +176,24 @@ a:hover {
   margin-right: 70px;
 }
 
-.portofolio{
-text-align: center;
-display: block;
-font-size: 1.30em;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-font-weight: bold;
+.portofolio {
+  text-align: center;
+  display: block;
+  font-size: 1.3em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
   color: #444444;
-  background: #FFFFFF;
-  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  background: #ffffff;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
   color: #444444;
-  background: #FFFFFF;
- 
+  background: #ffffff;
 }
 
 .presenting-portofolio {
@@ -198,74 +201,64 @@ font-weight: bold;
   align-content: center;
   justify-content: center;
   justify-content: space-around;
- 
-  
-  
-
+  flex-wrap: wrap;
+  width: 700px;
+  margin: 0 auto;
+  gap: 20px;
 }
+.presenting-portofolio-photos {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: 50%;
+  vertical-align: middle;
+  width: 215px;
+  height: 215px;
+}
+
 .presenting-portofolio-photos1 {
   background-image: url("web-design-team.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  background-position: 50%;
-  vertical-align: middle;
-  width: 215px;
-  height: 215px;
 }
+
 .presenting-portofolio-photos2 {
   background-image: url("coffee.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  background-position: 50%;
-  vertical-align: middle;
-  width: 215px;
-  height: 215px;
 }
 
 .presenting-portofolio-photos3 {
   background-image: url("businessman.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  background-position: 50%;
-  vertical-align: middle;
-  width: 215px;
-  height: 215px;
 }
 
 .presenting-portofolio-photos4 {
-  background-image: url("businessman.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  background-position: 50%;
-  vertical-align: middle;
-  width: 215px;
-  height: 215px;
+  background-image: url("poza.jpg");
 }
 
 .presenting-portofolio-photos5 {
   background-image: url("de-schimbat.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  background-position: 50%;
-  vertical-align: middle;
-  width: 215px;
-  height: 215px;
 }
 
 .presenting-portofolio-photos6 {
-  background-image: url("businessman.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  background-position: 50%;
-  vertical-align: middle;
+  align-items: center;
+  background-color: rgb(75, 75, 250);
   width: 215px;
   height: 215px;
+  position: relative;
+  /* box-shadow: rgb(75 75 250) 0px 0px 0px 215px; */
+}
+
+.presenting-portofolio-photos6:after {
+  content: "";
+  position: absolute;
+  margin: -20px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  background-color: #fff;
+  bottom: 0px;
+  right: 0px;
+}
+
+.presenting-portofolio-photos6 {
+  overflow: hidden;
 }
 
 .footer {
@@ -307,7 +300,6 @@ font-weight: bold;
 }
 
 .loggo-footer {
- 
   border-radius: 20px;
   padding: 9px 9px;
   cursor: pointer;
@@ -315,24 +307,27 @@ font-weight: bold;
   width: 18;
   height: 18;
   background-color: #80808029;
-  margin: 14px
+  margin: 14px;
 }
 
 .services {
   text-align: center;
-display: block;
-font-size: 1.30em;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-font-weight: bold;
+  display: block;
+  font-size: 1.3em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
   color: #444444;
-  background: #FFFFFF;
-  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  background: #ffffff;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
   color: #444444;
-  background: #FFFFFF;
- 
+  background: #ffffff;
 }
 
 .copyright {
