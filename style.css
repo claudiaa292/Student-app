@@ -122,17 +122,18 @@ a:hover {
 
 #work-button {
   margin-right: 20px;
-  background-color: rgb(195 177 170);
-  border: 1px solid transparent;
+
+  border: 2px solid transparent;
   border-radius: 20px;
-  color: black;
+  background-color: rgb(51, 49, 49);
+  color: white;
+
   text-decoration: none;
   transition: all 0.4s;
 }
 #work-button:hover {
-  background-color: rgb(187, 125, 156);
-  color: rgb(52, 51, 51);
-  font-weight: bold;
+  color: black;
+  background-color: rgb(211 204 202);
 }
 
 .div-flex {
@@ -287,10 +288,10 @@ a:hover {
   background-color: white;
 }
 
-.feedback{
+.feedback {
   background-color: #efefef;
 }
-.me{
+.me {
   height: 74px;
   width: 77px;
   border: 1px solid white;
@@ -298,7 +299,7 @@ a:hover {
   padding: 5px;
   display: block;
   margin: auto;
-} 
+}
 
 .footer {
   color: #fff;
