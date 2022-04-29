@@ -381,3 +381,41 @@ a:hover {
   color: #4a4646;
   opacity: 1.1;
 }
+
+.input-search {
+  display: block;
+  position: relative;
+}
+
+.input-search i.bi {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 30px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search input {
+  border: 1px solid #aaa;
+  border-radius: 50px;
+  color: #333;
+  padding: 5px 40px 5px 10px;
+
+}
+.bi bi-dash-lg{
+   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 30px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
