@@ -471,7 +471,17 @@ i.bi {
   width: 50%;
   display: flex;
   flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.222);
+  padding: 20px;
 }
+
+.container .contactInfo .box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
 
 .container .contactInfo .box .icon {
   min-width: 60px;
@@ -485,21 +495,29 @@ i.bi {
 }
 
 .container .contactInfo .box .text {
-  display: flex;
-  margin-left: 20px;
+  
+  
   font-size: 16px;
   color: #fff;
   flex-direction: column;
   font-weight: 300;
+  flex: 1 1 auto;
 }
 .container .contactInfo .box .text h3 {
   font-weight: 500;
   color: #00bcd4;
+margin-top: 0;
 }
+
+.container .contactInfo .box .text p{
+  margin: 0;
+}
+
 .contactForm {
-  width: 40%;
-  padding: 40px;
+  width: 30%;
+  padding: 30px;
   background: #fff;
+  
 }
 .contactForm h2{
   font-size: 30px;
