@@ -133,8 +133,10 @@ a:hover {
   transition: all 0.4s;
 }
 #work-button:hover {
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -24px 50px 47px 3px rgba(0,0,0,0.06); 
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -24px 50px 47px 3px rgba(0,0,0,0.06);
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -24px 50px 47px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -24px 50px 47px 3px rgba(0, 0, 0, 0.06);
 }
 
 .div-flex {
@@ -350,15 +352,14 @@ i.bi {
   border-radius: 20px;
   padding: 4px 4px;
   border: 1px solid transparent;
-  
 }
 
 .icons-footer i.bi:hover {
-    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px 1px 13px -1px rgba(0,0,0,0.78); 
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px 1px 13px -1px rgba(0,0,0,0.78);
-
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
 }
-
 
 .services {
   text-align: center;
@@ -423,29 +424,26 @@ i.bi {
   align-items: center;
 }
 
-.hr{
-  padding-top: 17px; }
-  
-
+.hr {
+  padding-top: 17px;
+}
 
 /* contact page*/
 
-.main-contact{
+.main-contact {
   background-image: url(city-sparkles-light-streets-night.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .contact {
   position: relative;
-  min-height: 100vh;
-  padding: 50px 100px;
+  min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  }
+}
 
 .contact .content {
   max-width: 800px;
@@ -475,13 +473,11 @@ i.bi {
   padding: 20px;
 }
 
-.container .contactInfo .box{
+.container .contactInfo .box {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  
 }
-
 
 .container .contactInfo .box .icon {
   min-width: 60px;
@@ -495,8 +491,6 @@ i.bi {
 }
 
 .container .contactInfo .box .text {
-  
-  
   font-size: 16px;
   color: #fff;
   flex-direction: column;
@@ -506,45 +500,56 @@ i.bi {
 .container .contactInfo .box .text h3 {
   font-weight: 500;
   color: #00bcd4;
-margin-top: 0;
+  margin-top: 0;
 }
 
-.container .contactInfo .box .text p{
+.container .contactInfo .box .text p {
   margin: 0;
 }
 
+.map-section {
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.map-section iframe {
+  width: 100%;
+  border: 0 solid transparent;
+}
 .contactForm {
   width: 30%;
   padding: 30px;
   background: #fff;
-  
 }
-.contactForm h2{
+.contactForm h2 {
   font-size: 30px;
   color: #333;
   font-weight: 500;
 }
 
-.contactForm .inputBox{
+.contactForm .inputBox {
   position: relative;
   width: 100%;
   margin-top: 10px;
 }
 
 .contactForm .inputBox input,
-.contactForm .inputBox textarea
-{
-  width:100%;
+.contactForm .inputBox textarea {
+  width: 100%;
   padding: 5px 0;
   font-size: 16px;
   margin: 10px 0;
   border: none;
   border-bottom: 2px solid #333;
   outline: none;
-resize: none;
+  resize: none;
 }
 
-contactForm .inputBox span{
+contactForm .inputBox span {
   position: absolute;
   left: 0;
   padding: 5px 0;
@@ -558,16 +563,13 @@ contactForm .inputBox span{
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span
-{
+.contactForm .inputBox textarea:valid ~ span {
   color: #e91e63;
   font-size: 12px;
   transform: translateY(-20px);
-
 }
 
-.contactForm .inputBox input[type="submit"]
-{
+.contactForm .inputBox input[type="submit"] {
   width: 100px;
   background: #00bcd4;
   color: #fff;
@@ -576,7 +578,7 @@ contactForm .inputBox span{
   padding: 10px;
   font-size: 18px;
 }
-.map{
+.map {
   width: 30px;
   height: 10px;
 }
