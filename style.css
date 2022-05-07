@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  padding: 0;
 }
 
 * {
@@ -132,8 +133,8 @@ a:hover {
   transition: all 0.4s;
 }
 #work-button:hover {
-  color: black;
-  background-color: rgb(211 204 202);
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -24px 50px 47px 3px rgba(0,0,0,0.06); 
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -24px 50px 47px 3px rgba(0,0,0,0.06);
 }
 
 .div-flex {
@@ -335,26 +336,29 @@ a:hover {
 
 .icons-footer {
   display: flex;
-  justify-content: center;
   margin: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  gap: 35px;
 }
 
-.loggo-footer {
-  border-radius: 20px;
-  padding: 9px 9px;
+i.bi {
+  color: black;
+  font-size: 27px;
   cursor: pointer;
+  border-radius: 20px;
+  padding: 4px 4px;
   border: 1px solid transparent;
-  width: 39px;
-  height: 39px;
-  background-color: #80808029;
-  margin: 14px;
+  
 }
 
-.loggo-footer:hover {
-  box-shadow: 4px 10px grey;
-  width: 42px;
-  height: 42px;
+.icons-footer i.bi:hover {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px 1px 13px -1px rgba(0,0,0,0.78); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px 1px 13px -1px rgba(0,0,0,0.78);
+
 }
+
 
 .services {
   text-align: center;
@@ -390,10 +394,10 @@ a:hover {
 .input-search i.bi {
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
+  right: 5px;
+  bottom: -4px;
   z-index: 1;
-  width: 30px;
+  width: 31px;
   color: #333;
   display: flex;
   justify-content: center;
@@ -405,10 +409,9 @@ a:hover {
   border-radius: 50px;
   color: #333;
   padding: 5px 40px 5px 10px;
-
 }
-.bi bi-dash-lg{
-   position: absolute;
+.bi bi-dash-lg {
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -418,4 +421,144 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hr{
+  padding-top: 17px; }
+  
+
+
+/* contact page*/
+
+.main-contact{
+  background-image: url(city-sparkles-light-streets-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+.contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+  width:100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+resize: none;
+}
+
+contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10 px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+.map{
+  width: 30px;
+  height: 10px;
 }

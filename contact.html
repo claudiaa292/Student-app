@@ -1,31 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First project</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <main class="main">
-      <header>
-        <div class="container">
-          <div class="flex-container align-items-center">
-            <div class="div-header">
-              <img class="loggo" src="loggo.jpg" alt="loggo" />
-            </div>
-            <div class="nav-links">
-              <a class="active" href="home.html">Home</a>
-              <a href="work.html">Work</a>
-              <a href="blog.html">Blog</a>
-              <a href="contact.html">Contact</a>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First project</title>
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ 
+    <header>
+      <div class="container">
+        <div class="flex-container align-items-center">
+          <div class="div-header">
+            <img class="loggo" src="loggo.jpg" alt="loggo" />
+          </div>
+          <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="blog.html">Blog</a>
+            <a class="active" href="contact.html">Contact</a>
           </div>
         </div>
-      </header>
-    </main>
-    <footer class="footer">This is footer</footer>
-  </body>
+      </div>
+    </header>
+    <main class="main-contact">
+    
+  <section class="contact">
+    <div class="content">
+      <h2>Contact us</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam, possimus nobis nulla ducimus sit at
+        beatae ullam veniam iste!</p>
+    </div>
+    <div class="container">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div class="text"> <h3>Adress</h3>
+            <p>Herta no 7, <br> Bucharest, Romania,<br>022171</p></div>
+          </div>
+          
+          <div class="box">
+            <div class="icon"><i class="bi bi-telephone-fill"></i>
+              </div>
+            <div class="text"><h3>Phone</h3>
+              <p>+4 0764 783 264</p></div>
+          </div>
+            <div class="box">
+              <div class="icon">
+                <i class="bi bi-envelope"></i></div>
+              <div class="text"> <h3>E-mail</h3>
+                <p>dogaruclaudia.roxana@gmail.com</p></div>
+             
+            </div>
+          </div>
+
+
+          <div class="contactForm">
+            <form>
+              <h2>Send Message</h2>
+              <div class="inputBox">
+                <input type = "text" name = "" required = "required">
+                <span>Full Name</span>
+              </div>
+              <div class="inputBox">
+                <input type = "text" name = "" required = "required">
+                <span>E-mail</span>
+              </div>
+            <div class="inputBox">
+              <textarea required = "recuires"></textarea>
+              <span>Type your message</span>
+            </div>
+            <div class = "inputBox">
+              <input type="submit" name="" value="Send">
+            </div>
+            </div>
+            </form>
+          </div>
+        </div>
+        
+  </section>
+
+  </form>
+  <div>
+    <p><b>Wanna get to meet me in person? Here you can find the map!</b></p>
+      </div>
+      <div class="map">
+    <iframe src="https://maps.google.com/maps?q=Strada%20Herta%20numar%207&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      title="Adresa societatii" with="800" height="400"></iframe>
+    </div>
+  </main>
+    <footer class="footer">
+      <div class="links-footer">
+        <a class="activare" href="home.html">Home</a>
+        <a href="aboutMe">About me</a>
+        <a href="work.html">Work</a>
+        <a href="blog.html">Blog</a>
+        <label for="search"></label>
+  
+        <div class="input-search">
+           <input type="search" id="site-search" name="q" placeholder="Search.." required />
+           <i class="bi bi-search"></i>
+        </div>
+       
+      </div>
+      <div class="icons-footer">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-envelope"></i>
+        <i class="bi bi-play-circle-fill"></i>
+       
+      </div>
+  
+     <div class = "hr"><hr /></div>
+      <p class="copyright">© Copyright 2022 All Rights Reserved.</p>
+    </footer>
+</body>
+
 </html>
