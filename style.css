@@ -8,6 +8,31 @@ body {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: CormorantRegular;
+  src: url(font/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: CormorantBold;
+  src: url(font/CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+  font-family: CormorantSemiBoldItalic;
+  src: url(font/CormorantGaramond-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: CormorantMedium;
+  src: url(font/CormorantGaramond-Medium.ttf);
+}
+
+@font-face {
+  font-family: CormorantSemiBold;
+  src: url(font/CormorantGaramond-SemiBold.ttf);
+}
+
 .text-white {
   color: white;
 }
@@ -82,11 +107,13 @@ body {
   border: 1px solid transparent;
   transition: all 0.3s;
   text-decoration: none;
+  font-family: CormorantSemiBold;
 }
 
 .nav-links a.active {
   border-color: black;
   border-radius: 30px;
+  font-family: CormorantSemiBold;
 }
 
 a:hover {
@@ -97,6 +124,7 @@ a:hover {
   background-color: grey;
   color: white;
   transition: all 0.9s;
+  font-family: CormorantBold;
 }
 
 .loggo {
@@ -113,24 +141,35 @@ a:hover {
 .image-home {
   flex: 1;
   border: 2px solid transparent;
-
   height: 100%;
 }
 
+ .container .flex-container .short-description p{
+font-family:CormorantBold ;
+ }
+
+ .container .flex-container .short-description h2{
+  font-family:CormorantBold;
+ }
+
+ .container .flex-container .short-description h4{
+  font-family:CormorantSemiBold;
+ }
+
+ 
 .short-descrition {
   border-left: 3px;
 }
 
 #work-button {
   margin-right: 20px;
-
-  border: 2px solid transparent;
-  border-radius: 20px;
+  border: 5px solid transparent;
+  border-radius: 9px;
   background-color: rgb(51, 49, 49);
   color: white;
-
   text-decoration: none;
   transition: all 0.4s;
+  font-family: CormorantSemiBold;
 }
 #work-button:hover {
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
@@ -178,6 +217,18 @@ a:hover {
   padding: 15px;
 }
 
+.div-flex .flex1 h4,
+.div-flex .flex2 h4,
+.div-flex .flex3 h4{
+  font-family: CormorantBold;
+}
+
+.div-flex .flex1 p,
+.div-flex .flex2 p,
+.div-flex .flex3 p{
+  font-family: CormorantSemiBold;
+}
+
 .icon {
   width: 30px;
   height: 30px;
@@ -206,6 +257,7 @@ a:hover {
     7px 6px 1px #cccccc;
   color: #444444;
   background: #ffffff;
+  font-family: CormorantBold
 }
 
 .presenting-portofolio {
@@ -379,6 +431,7 @@ i.bi {
     7px 6px 1px #cccccc;
   color: #444444;
   background: #ffffff;
+  font-family: CormorantBold
 }
 
 .copyright {
