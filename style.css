@@ -49,6 +49,7 @@ body {
 }
 
 .container {
+ 
   width: calc(100% - 30px);
   margin-left: 15px;
   margin-right: 15px;
@@ -129,11 +130,13 @@ a:hover {
 
 .loggo {
   max-width: 100px;
+  flex: 1;
 }
 
 .flex-container {
   display: flex;
 }
+
 .align-items-center {
   align-items: center;
 }
