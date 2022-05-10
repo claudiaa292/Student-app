@@ -11,27 +11,47 @@ body {
 @font-face {
   font-family: CormorantRegular;
   src: url(font/CormorantGaramond-Regular.ttf);
+} 
+.cormorantRegular{
+  font-family: CormorantRegular;
+}
+.cormorantRegular{
+  font-family: CormorantRegular;
 }
 
 @font-face {
   font-family: CormorantBold;
   src: url(font/CormorantGaramond-Bold.ttf);
 }
+.cormorantBold{
+  font-family: CormorantBold;
+}
 
 @font-face {
   font-family: CormorantSemiBoldItalic;
   src: url(font/CormorantGaramond-SemiBoldItalic.ttf);
+}
+.cormorantSemiBoldItalic{
+  font-family: CormorantSemiBoldItalic;
 }
 
 @font-face {
   font-family: CormorantMedium;
   src: url(font/CormorantGaramond-Medium.ttf);
 }
+.cormorantMedium{
+  font-family: CormorantMedium;
+}
 
 @font-face {
   font-family: CormorantSemiBold;
   src: url(font/CormorantGaramond-SemiBold.ttf);
 }
+.cormorantSemiBold{
+  font-family: CormorantSemiBold;
+}
+
+
 
 .text-white {
   color: white;
@@ -643,3 +663,7 @@ contactForm .inputBox span {
   width: 30px;
   height: 10px;
 }
+
+/* Work */
+
+
