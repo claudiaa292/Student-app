@@ -242,18 +242,6 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
   padding: 15px;
 }
 
-.div-flex .flex1 h4,
-.div-flex .flex2 h4,
-.div-flex .flex3 h4{
-  font-family: CormorantBold;
-}
-
-.div-flex .flex1 p,
-.div-flex .flex2 p,
-.div-flex .flex3 p{
-  font-family: CormorantSemiBold;
-}
-
 .icon {
   width: 30px;
   height: 30px;
