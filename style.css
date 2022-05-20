@@ -52,7 +52,6 @@ body {
 }
 
 
-
 .text-white {
   color: white;
 }
@@ -125,31 +124,26 @@ body {
 .nav-links a {
   color: black;
   padding: 6px 9px;
-  border: 1px solid transparent;
+  
   transition: all 0.3s;
   text-decoration: none;
   font-family: CormorantSemiBold;
 }
 
 .nav-links a.active {
-  border-color: black;
-  border-radius: 30px;
+  
   font-family: CormorantSemiBold;
+  text-decoration: underline;
 }
 
 a:hover {
-  border-color: rgb(0, 0, 0);
-  border-radius: 23px;
-  border: 1px solid #888;
-  border-radius: 30px;
-  background-color: grey;
-  color: white;
+  text-decoration: underline;
   transition: all 0.9s;
-  font-family: CormorantBold;
+ 
 }
 
 .loggo {
-  max-width: 100px;
+  max-width: 120px;
   flex: 1;
 }
 
@@ -218,6 +212,7 @@ font-family:CormorantBold ;
   padding: 15px;
   transition: all 0.2s;
 }
+
 .flex1:hover {
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
   -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
@@ -387,9 +382,12 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
   margin: 0 1rem;
   text-decoration: none;
   padding: 0.2rem 0.8rem;
-  border: transparent 2px solid;
-  border-radius: 20px;
+ 
   color: black;
+}
+
+.links-footer a:hover{
+  text-decoration: underline;
 }
 
 .activare {
@@ -400,8 +398,8 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
 }
 
 .links-footer a.activare {
-  border-color: black;
-  border-radius: 30px;
+ text-decoration: underline;
+  
 }
 
 .icons-footer {
@@ -480,6 +478,7 @@ i.bi {
   color: #333;
   padding: 5px 40px 5px 10px;
 }
+
 .bi bi-dash-lg {
   position: absolute;
   top: 0;
