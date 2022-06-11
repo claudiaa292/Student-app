@@ -15,9 +15,6 @@ body {
 .cormorantRegular{
   font-family: CormorantRegular;
 }
-.cormorantRegular{
-  font-family: CormorantRegular;
-}
 
 @font-face {
   font-family: CormorantBold;
@@ -69,7 +66,6 @@ body {
 
 .container {
  
-  width: calc(100% - 30px);
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -103,9 +99,7 @@ body {
   flex: 1;
 }
 
-.bg-gray {
-  background-color: #efefef;
-}
+
 
 .div-header,
 .nav-links {
@@ -156,9 +150,11 @@ a:hover {
 }
 
 .image-home {
-  flex: 1;
+  
   border: 2px solid transparent;
   height: 100%;
+  width:50%;
+ 
 }
 
  .container .flex-container .short-description p{
@@ -218,7 +214,7 @@ font-family:CormorantBold ;
   -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
 box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
   -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
-  transition: all 0.2s;
+  transform: scale(1.2);
 }
 
 .flex2 {
@@ -342,7 +338,7 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
 }
 
 .awesome1 {
-  display: flex 1, 1 auto;
+  width: 80%;
   text-align: center;
 }
 
@@ -356,6 +352,7 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
 
 .feedback {
   background-color: #efefef;
+  padding: 100px;
 }
 .me {
   height: 74px;
@@ -421,10 +418,7 @@ i.bi {
 }
 
 .icons-footer i.bi:hover {
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
-  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-    -1px 1px 13px -1px rgba(0, 0, 0, 0.78);
+color: rgb(64, 64, 116);
 }
 
 .services {
